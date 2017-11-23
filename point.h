@@ -8,12 +8,12 @@ private:
 public:
 	Point();
 	Point(double _x, double _y);
-	void set_x(double _x);
-	void set_y(double _y);
-	double get_x();
-	double get_y();
-	Point operator +(Point &data);
-	Point& operator +=(Point $data);
-	Point operator -(Point &data);
-	Point& operator -=(Point $data);
+	void setX(double _x);
+	void setY(double _y);
+	double getX();
+	double getY();
+	Point operator +(Point &in);
+	Point& operator +=(Point &in);
+	Point operator -(Point &in);
+	Point& operator -=(Point &in);
 };
